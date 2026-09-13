@@ -3,29 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curiosidades Numéricas</title>
-    <link rel="stylesheet" href="style.css"> 
+    <meta name="description" content="Consulte cotações de moedas em tempo real: Dólar, Euro, Libra, Bitcoin e mais.">
+    <title>Cotações em Tempo Real — Bootcamp II</title>
+    <!-- Caminho relativo: essencial para o GitHub Pages -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Explorador de Números</h1>
-        <p>Descubra fatos curiosos sobre qualquer número!</p>
+        <h1>💱 Cotações em Tempo Real</h1>
+        <p>Consulte a cotação atual das principais moedas frente ao Real</p>
     </header>
 
     <main>
-        <section class="busca">
-            <input type="number" id="campo-numero" placeholder="Digite um número (ex: 42)">
-            <select id="campo-tipo">
-                <option value="trivia">Geral (Trivia)</option>
-                <option value="math">Matemática</option>
-                <option value="year">Ano Histórico</option>
+        <section class="busca" aria-label="Formulário de busca de cotação">
+            <label for="campo-moeda" class="sr-only">Escolha o par de moedas</label>
+            <select id="campo-moeda" aria-label="Selecione o par de moedas">
+                <option value="USD-BRL">🇺🇸 Dólar Americano → 🇧🇷 Real</option>
+                <option value="EUR-BRL">🇪🇺 Euro → 🇧🇷 Real</option>
+                <option value="GBP-BRL">🇬🇧 Libra Esterlina → 🇧🇷 Real</option>
+                <option value="ARS-BRL">🇦🇷 Peso Argentino → 🇧🇷 Real</option>
+                <option value="BTC-BRL">₿ Bitcoin → 🇧🇷 Real</option>
+                <option value="ETH-BRL">Ξ Ethereum → 🇧🇷 Real</option>
             </select>
-            <button id="botao-buscar">Buscar Fato</button>
+            <button id="botao-buscar" type="button">Consultar Cotação</button>
         </section>
 
-        <section id="resultado"></section>
+        <!-- O JavaScript injeta aqui o cartão de resultado ou a mensagem de erro -->
+        <section id="resultado" aria-live="polite"></section>
     </main>
 
+    <footer>
+        Dados: <a href="https://docs.awesomeapi.com.br/api-de-moedas" target="_blank" rel="noopener">AwesomeAPI</a>
+        · Projeto da disciplina Bootcamp II
+    </footer>
+
+    <!-- Script no fim do body: garante que o HTML já exista quando o JS rodar -->
     <script src="script.js"></script>
 </body>
 </html>
