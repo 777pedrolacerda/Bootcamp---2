@@ -9,9 +9,9 @@ variação percentual.
 
 ## 👤 Autor
 
-- **Nome:** [Seu Nome Completo]
-- **Matrícula:** [Sua Matrícula]
-- **Curso:** [Seu Curso]
+- **Nome:** [PEDRO HENRIQUE LACERDA RODRIGUES DE ALENCAR]
+- **Matrícula:** [22551805]
+- **Curso:** [ENGENHARIA DE SOFTWARE]
 - **Disciplina:** Bootcamp II — Etapa 01
 
 ---
