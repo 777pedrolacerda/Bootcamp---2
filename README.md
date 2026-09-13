@@ -9,9 +9,9 @@ variação percentual.
 
 ## 👤 Autor
 
-- **Nome:** [PEDRO HENRIQUE LACERDA RODRIGUES DE ALENCAR]
-- **Matrícula:** [22551805]
-- **Curso:** [ENGENHARIA DE SOFTWARE]
+- **Nome:** Pedro Henrique Lacerda Rodrigues de Alencar
+- **Matrícula:** 22551805
+- **Curso:** Engenharia de Software
 - **Disciplina:** Bootcamp II — Etapa 01
 
 ---
@@ -32,8 +32,7 @@ e está publicado no GitHub Pages.
 
 - **Nome:** AwesomeAPI — API de Moedas
 - **Documentação:** https://docs.awesomeapi.com.br/api-de-moedas
-- **Endpoint consumido:**
-
+- **Endpoint consumido:** `https://economia.awesomeapi.com.br/last/{PAR-DE-MOEDAS}`
 - **Exemplo:** `https://economia.awesomeapi.com.br/last/USD-BRL`
 
 API pública, sem necessidade de chave, com HTTPS e CORS liberados.
@@ -45,18 +44,18 @@ API pública, sem necessidade de chave, com HTTPS e CORS liberados.
 - Seleção do par de moedas via `<select>` (USD-BRL, EUR-BRL, GBP-BRL, ARS-BRL, BTC-BRL, ETH-BRL)
 - Consulta por clique no botão **ou** pela tecla **Enter**
 - Exibição de 6 informações da resposta da API:
-- Nome do par de moedas
-- Valor de compra (bid)
-- Valor de venda (ask)
-- Máxima do dia
-- Mínima do dia
-- Variação percentual (com indicador visual ▲ / ▼)
+  - Nome do par de moedas
+  - Valor de compra (bid)
+  - Valor de venda (ask)
+  - Máxima do dia
+  - Mínima do dia
+  - Variação percentual (com indicador visual ▲ / ▼)
 - Formatação monetária brasileira (`R$ 5.420,00`) e de data/hora
 - Feedback visual durante a requisição ("Consultando cotação…")
 - Botão desabilitado durante a requisição, evitando cliques duplos
 - Tratamento de erros amigável:
-- Par inválido → mensagem orientando a trocar de opção
-- API fora do ar ou sem internet → mensagem orientando tentar novamente
+  - Par inválido → mensagem orientando a trocar de opção
+  - API fora do ar ou sem internet → mensagem orientando tentar novamente
 - Layout responsivo (desktop e mobile)
 
 ---
@@ -65,14 +64,21 @@ API pública, sem necessidade de chave, com HTTPS e CORS liberados.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/777pedrolacerda/Bootcamp--2.git
+git clone https://github.com/777pedrolacerda/Bootcamp---2.git
 
 # 2. Entre na pasta
-cd Bootcamp--2
+cd Bootcamp---2
 
-Bootcamp--2/
+# 3. Abra o arquivo index.html no navegador
+
+Bootcamp---2/
 ├── index.html    # Estrutura da página
 ├── style.css     # Estilização e responsividade
 ├── script.js     # Requisição à API, renderização e tratamento de erros
 └── README.md     # Este arquivo
+
+🔗 Links
+Aplicação no ar (GitHub Pages): https://777pedrolacerda.github.io/Bootcamp---2/
+
+Repositório: https://github.com/777pedrolacerda/Bootcamp---2
 
