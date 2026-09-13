@@ -12,7 +12,7 @@ variação percentual.
 - **Nome:** Pedro Henrique Lacerda Rodrigues de Alencar
 - **Matrícula:** 22551805
 - **Curso:** Engenharia de Software
-- **Disciplina:** Bootcamp II — Etapa 01
+- **Disciplina:** Bootcamp II — Etapa 1
 
 ---
 
@@ -81,4 +81,5 @@ Bootcamp---2/
 Aplicação no ar (GitHub Pages): https://777pedrolacerda.github.io/Bootcamp---2/
 
 Repositório: https://github.com/777pedrolacerda/Bootcamp---2
+
 
