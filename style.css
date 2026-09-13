@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #1A365D;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.busca {
+    margin: 2rem 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #2B6CB0;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #1A365D;
+}
+
+/* Estilo para o cartão de resultado e erro */
+#resultado {
+    width: 100%;
+    max-width: 500px;
+}
+
+.cartao {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.erro {
+    background: #FED7D7;
+    color: #9B2C2C;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #FEB2B2;
+}
